@@ -13,8 +13,8 @@ require("peek").setup({
 	syntax = true,
 	theme = "light",
 	update_on_change = true,
-	app = "webview",
-	filetype = { "markdown" },
+	app = { "firefox", "--new-window" },
+	filetype = { "markdown", "html" },
 	throttle_at = 200000,
 	throttle_time = "auto",
 })
